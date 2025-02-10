@@ -11,7 +11,7 @@
     font-style: normal;
   }
 
-/****************/
+/***** Navigation Menu Style *****/
 
 .hamburger{
     display: none;
@@ -71,8 +71,55 @@
   #AdmiColor{
     color: #5D58EF;
   }
+/*********************/
+
+/******* Banner Style *******/
+
+.bannersection{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 68px;
+    margin-right: 65px;
+  }
+
+  .bannerh{
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .bannerp{
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .bannerbtn{
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  .bannerbtn > a {
+    text-decoration: none;
+    color: azure;
+    font-weight: 550;
+  }
+
+  .bannerimg{
+    width: 350px;
+    height: 450px;
+  }
+
+
 @media screen and (max-width: 576px){
-        
+        /**** nav menu ****/
+
         .hamburger {
             display: block;
             padding: 0px;
@@ -94,4 +141,16 @@
             padding-top: 5px;
 
         }
+        /*****************/
+
+        /******* Banner Style *******/
+
+        .bannersection{
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+        }
+       
     }       
