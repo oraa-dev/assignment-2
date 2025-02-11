@@ -116,6 +116,175 @@
     height: 450px;
   }
 
+  /*********************/
+
+  /******Standared Box Card Style*******/
+
+  .standardsection{
+    background-image: url(../assets/bg.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .standh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+    
+    .boxcontainer{
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px 140px;
+    }
+
+    .firstbox{
+      border: 2px solid #e8f7ff;
+      border-radius: 20px;
+      text-align: center;
+      padding: 20px 30px 20px 30px;
+      
+      }
+      
+      .secondbox{
+        border: 2px solid #fff6e4;
+        border-radius: 20px;
+        text-align: center;
+        padding: 20px 30px 20px 30px;
+
+      }
+      
+      .thirdbox{
+        border: 2px solid #f5e9ff;
+        border-radius: 20px;
+        text-align: center;  
+        padding: 20px 30px 20px 30px;
+
+      }
+
+      #readmoremiddle{
+        color: #8700FF;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+      }
+      
+      #readmoreschool{
+        color: #F0AA00;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+      }
+      
+      #readmorekinder{
+        color: skyblue;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+      }
+      
+      .imgborder {
+        /* border: 2px dashed tomato; */
+        width: 140px;
+        height: 125px;
+      }
+
+      .firstbox:nth-child(1) {
+        background: linear-gradient(to bottom, #e8f7ff, #ffffff);
+    }
+
+      .secondbox:nth-child(2) {
+        background: linear-gradient(to bottom, #fff6e4, #ffffff);
+    }
+
+      .thirdbox:nth-child(3) {
+        background: linear-gradient(to bottom, #f5e9ff, #ffffff);
+    }
+
+
+    .standardsectioniconbttn{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 30px;
+      
+    }
+
+    .icon-button {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #FFA500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 10px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .icon-button:hover {
+      transform: scale(1.1);
+    }
+    .icon {
+      color: white;
+      font-size: 20px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      line-height: 1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px){
         /**** nav menu ****/
@@ -152,5 +321,25 @@
             margin: 0px;
             text-align: center;
         }
-       
+        /*****************/
+
+          /******Standared Box Card Style*******/
+
+        .standh{
+          padding: 35px 0px 25px 0px;
+          margin: 0px;
+        }
+
+        .boxcontainer{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          gap: 10px;
+          padding: 0px;
+          margin: 0px;
+        }
+
+
+
+
     }       
